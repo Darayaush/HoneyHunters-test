@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/jquery_v3.6.0.min.js" defer></script>
+  <script src="js/bootstrap.min.js" defer></script>
+  <script src="js/handel-comments-data.js" defer></script>
+  <script src="/js/script.js" defer></script>
+  <title>Тестовое задание</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="w-75 m-auto">
+      <div class="row">
+        <div class="col-12">
+          <a href="https://honey-hunters.ru/ru/main.html" target="_blank" rel="noopener noreferrer"><img class="logo" src="/img/logo.png" alt="Логотип компании Honey Hunters"></a>
+        </div>
+      </div>
+
+      <h1 class="visually-hidden">Добавить комментарий</h1>
+
+      <div class="row">
+        <div class="col-12">
+          <form class="form row text-light g-5" id="form" action="index.php" method="GET">
+            <div class="col-md-6 pe-md-5">
+              <div class="row align-content-between h-100">
+                <div class="form-group">
+                  <label class="form__label" for="name">Имя</label>
+                  <input class="form__input form-control bg-transparent text-light rounded-2" type="text" name="name" id="name" maxlength="12" required>
+                </div>
+
+                <div class="form-group">
+                  <label class="form__label" for="email">E-Mail</label>
+                  <input class="form__input form-control bg-transparent text-light rounded-2" type="text" name="email" id="email" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 ps-md-5">
+              <div class="form-group">
+                <label class="form__label" for="comment">Комментарий</label>
+                <textarea class="form__input form__textarea form-control py-4 bg-transparent text-light rounded-2" name="comment" id="comment" cols="30" required></textarea>
+              </div>
+            </div>
+
+            <div class="col-12 text-center text-sm-end pt-lg-5 mt-lg-5">
+              <button class="form__btn btn btn-primary border-0" type="submit">Записать</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="section row py-5 m-auto">
+    <div class="row text-center py-2 mb-2 py-lg-5 mb-lg-5">
+      <h2 class="section__heading col-12">Выводим комментарии</h2>
+    </div>
+
+    <ul class="comment-list row row-cols-xxl-3 row-cols-md-2 row-cols-1 gx-lg-5 gy-5 w-75 m-auto p-0 list-unstyled" id="comment-list">
+    </ul>
+  </main>
+
+  <footer class="footer py-5">
+    <div class="row w-75 m-auto">
+      <div class="col-md-6 text-center text-md-start">
+        <a href="https://honey-hunters.ru/ru/main.html" target="_blank" rel="noopener noreferrer"><img class="logo" src="/img/logo.png" alt="Логотип компании Honey Hunters"></a>
+      </div>
+
+      <address class="contacts col-md-6 d-flex justify-content-between justify-content-md-end align-items-center mt-5 mt-md-0">
+        <a class="vk-link contacts__link rounded-circle me-5" href="https://vk.com/obslyzhivaniesaitov" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на соцсеть Вконтакте"></a>
+        <a class="fb-link contacts__link rounded-circle" href="https://www.facebook.com/honeyhuntersmanagement/" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на соцсеть Facebook"></a>
+      </address>
+    </div>
+  </footer>
+</body>
+
+</html>

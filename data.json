@@ -1,0 +1,34 @@
+{
+  "comments": [
+      {
+      "id": "88040",
+      "name": "Вася",
+      "email": "vasya@mail.ru",
+      "comment": "Сообщение от Васи Пупкина"
+    },
+    {
+      "id": "92899",
+      "name": "Маруся",
+      "email": "marysia@mail.ru",
+      "comment": "Привет, я Маруся!"
+    },
+    {
+      "id": "80658",
+      "name": "Вася",
+      "email": "vasya@mail.ru",
+      "comment": "Сообщение от Васи Пупкина"
+    },
+    {
+      "id": "31321",
+      "name": "Маруся",
+      "email": "marysia@mail.ru",
+      "comment": "Привет, я Маруся!"
+    },
+    {
+      "id": "81714",
+      "name": "Вася",
+      "email": "vasya@mail.ru",
+      "comment": "Сообщение от Васи Пупкина"
+    }
+  ]
+}
