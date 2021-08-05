@@ -183,6 +183,7 @@ li:nth-child(2n) .card-text:nth-child(2) {
     font-size: 3em;
   }
 
+  .form__input,
   .form__btn,
   .form__label,
   .article__name,
